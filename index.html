@@ -446,7 +446,7 @@
         </div>
     </div>
     <!-- Projects End -->
-<!-- coba mengunakan ctgpt --> 
+<!-- coba mengunakan chatgpt --> 
 
     <div class="container-xxl py-6 pb-5" id="team">
   <div class="container">
@@ -461,12 +461,23 @@
 
     <!-- Carousel Start -->
     <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="4"></button>
+        <button type="button" data-bs-target="#teamCarousel" data-bs-slide-to="5"></button>
+      </div>
+
       <div class="carousel-inner">
 
         <!-- Slide 1 -->
         <div class="carousel-item active">
           <div class="team-item text-center">
-            <img class="img-fluid rounded mb-3" src="img/mentor22.png" alt="">
+            <img class="mentor-img rounded mb-3" src="img/mentor22.png" alt="">
             <div class="team-text bg-white rounded p-4 d-inline-block">
               <h5>Ahmad Arya Sawraja</h5>
               <span>Founder</span>
@@ -477,7 +488,7 @@
         <!-- Slide 2 -->
         <div class="carousel-item">
           <div class="team-item text-center">
-            <img class="img-fluid rounded mb-3" src="img/mentor1.png" alt="">
+            <img class="mentor-img rounded mb-3" src="img/mentor1.png" alt="">
             <div class="team-text bg-white rounded p-4 d-inline-block">
               <h5>Ahmad Arya Sawraja</h5>
               <span>Founder</span>
@@ -488,7 +499,7 @@
         <!-- Slide 3 -->
         <div class="carousel-item">
           <div class="team-item text-center">
-            <img class="img-fluid rounded mb-3" src="img/mentor33.png" alt="">
+            <img class="mentor-img rounded mb-3" src="img/mentor33.png" alt="">
             <div class="team-text bg-white rounded p-4 d-inline-block">
               <h5>Ahmad Arya Sawraja</h5>
               <span>Founder</span>
@@ -499,7 +510,7 @@
         <!-- Slide 4 -->
         <div class="carousel-item">
           <div class="team-item text-center">
-            <img class="img-fluid rounded mb-3" src="img/mentor4.jpg" alt="">
+            <img class="mentor-img rounded mb-3" src="img/mentor4.jpg" alt="">
             <div class="team-text bg-white rounded p-4 d-inline-block">
               <h5>Ahmad Arya Sawraja</h5>
               <span>Founder</span>
@@ -510,7 +521,7 @@
         <!-- Slide 5 -->
         <div class="carousel-item">
           <div class="team-item text-center">
-            <img class="img-fluid rounded mb-3" src="img/mentor5.jpg" alt="">
+            <img class="mentor-img rounded mb-3" src="img/mentor5.jpg" alt="">
             <div class="team-text bg-white rounded p-4 d-inline-block">
               <h5>Full Name</h5>
               <span>Designer</span>
@@ -521,7 +532,7 @@
         <!-- Slide 6 -->
         <div class="carousel-item">
           <div class="team-item text-center">
-            <img class="img-fluid rounded mb-3" src="img/mentor6.jpg" alt="">
+            <img class="mentor-img rounded mb-3" src="img/mentor6.jpg" alt="">
             <div class="team-text bg-white rounded p-4 d-inline-block">
               <h5>Full Name</h5>
               <span>Designer</span>
@@ -542,6 +553,19 @@
     <!-- Carousel End -->
   </div>
 </div>
+
+<!-- Tambahkan CSS -->
+<style>
+  .mentor-img {
+    width: 300px;   /* sesuaikan sesuai kebutuhan */
+    height: 300px;  /* bikin sama besar */
+    object-fit: cover; /* biar gambar tidak gepeng */
+  }
+  .carousel-indicators button {
+    background-color: #000; /* warna titik navigasi */
+  }
+</style>
+
 
 <!-- Team Start -->
 
